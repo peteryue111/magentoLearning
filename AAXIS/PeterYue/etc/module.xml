@@ -6,6 +6,9 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-  <module name="AAXIS_PeterYue" setup_version="0.0.1">
+  <module name="AAXIS_PeterYue" setup_version="0.105.0">
+  	 <sequence>
+            <module name="Vertex_Tax" />
+     </sequence>
   </module>
 </config>
